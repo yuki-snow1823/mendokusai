@@ -1,0 +1,24 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  /* アニメーションの長さ */
+  animation: rainbow 2s linear infinite;
+}
+
+.center {
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  text-align: center;
+}
+
+@keyframes rainbow {
+  /* 色の指定 */
+  0% { color: Magenta; }
+  33% { color: yellow; }
+  66% { color: Cyan; }
+  100% { color: Magenta; }
+}
